@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#F6F1E8"></rect>
+  
+  <rect x="40" y="60.5" width="350" height="495" rx="6" fill="rgba(30,27,22,0.10)"></rect>
+  
+  <rect x="418" y="60.5" width="350" height="495" rx="6" fill="rgba(30,27,22,0.10)"></rect>
+  
+  <g transform="translate(36 52.5)">
+    <rect width="350" height="495" rx="4" fill="#FBF7EC"></rect>
+    <rect x="28" y="30" width="200" height="8" rx="4" fill="#1E1B16"></rect>
+<rect x="28" y="50" width="110" height="4" rx="2" fill="#B85A3C"></rect>
+<g transform="translate(28 90)">
+    <circle cx="14" cy="14" r="14" fill="#1E1B16"></circle>
+    <text x="14" y="19" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#FBF7EC">1</text>
+  </g>
+<g transform="translate(70 80)" stroke="#1E1B16" stroke-width="2" fill="none" stroke-linejoin="round">
+    <path d="M10 30 L60 10 L110 30 L60 50 Z"></path>
+    <path d="M10 30 L10 70 L60 90 L60 50"></path>
+    <path d="M60 50 L110 30 L110 70 L60 90"></path>
+    <path d="M40 22 L40 62" stroke-dasharray="3 3"></path>
+    <path d="M80 22 L80 62" stroke-dasharray="3 3"></path>
+  </g>
+<rect x="195" y="100" width="110" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="110" width="130" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="120" width="90" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="130" width="70" height="3" rx="1.5" fill="#5D5546"></rect>
+<g transform="translate(28 210)">
+    <circle cx="14" cy="14" r="14" fill="#1E1B16"></circle>
+    <text x="14" y="19" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#FBF7EC">2</text>
+  </g>
+<g transform="translate(70 200)" stroke="#1E1B16" stroke-width="2" fill="none" stroke-linecap="round">
+    <rect x="6" y="14" width="100" height="60" rx="4"></rect>
+    <path d="M30 14 L30 4 L80 4 L80 14"></path>
+    <circle cx="56" cy="44" r="10"></circle>
+    <path d="M52 44 L56 48 L62 40"></path>
+  </g>
+<rect x="195" y="220" width="120" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="230" width="90" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="240" width="110" height="3" rx="1.5" fill="#5D5546"></rect>
+<g transform="translate(28 330)">
+    <circle cx="14" cy="14" r="14" fill="#1E1B16"></circle>
+    <text x="14" y="19" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#FBF7EC">3</text>
+  </g>
+<g transform="translate(70 320)" stroke="#1E1B16" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="36" cy="34" r="18"></circle>
+    <circle cx="36" cy="34" r="6"></circle>
+    <path d="M36 10 L36 4 M36 64 L36 58 M12 34 L6 34 M60 34 L66 34"></path>
+    <path d="M80 30 L100 30 L96 24 M100 30 L96 36"></path>
+  </g>
+<rect x="195" y="340" width="100" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="350" width="130" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="360" width="80" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="195" y="370" width="110" height="3" rx="1.5" fill="#5D5546"></rect>
+<rect x="28" y="457" width="180" height="2" rx="1" fill="#5D5546"></rect>
+<rect x="28" y="467" width="140" height="2" rx="1" fill="#5D5546"></rect>
+  </g>
+  
+  <g transform="translate(414 52.5)">
+    <rect width="350" height="495" rx="4" fill="#FBF7EC"></rect>
+    <rect x="28" y="30" width="160" height="8" rx="4" fill="#1E1B16"></rect>
+<rect x="28" y="50" width="90" height="4" rx="2" fill="#B85A3C"></rect>
+<g transform="translate(28 90)" stroke="#1E1B16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M50 60 L120 30 L200 60 L130 90 Z"></path>
+    <path d="M50 60 L50 110 L130 140 L130 90"></path>
+    <path d="M130 90 L200 60 L200 110 L130 140"></path>
+    <path d="M130 30 L130 0" stroke-dasharray="3 3"></path>
+    <path d="M260 60 L290 60" stroke-dasharray="3 3"></path>
+    <rect x="240" y="50" width="50" height="20"></rect>
+    <path d="M170 160 L170 190" stroke-dasharray="3 3"></path>
+    <circle cx="170" cy="200" r="8"></circle>
+  </g>
+<line x1="28" y1="290" x2="322" y2="290" stroke="#1E1B16" stroke-width="1.5"></line>
+<g transform="translate(28 305)">
+      <rect width="20" height="20" rx="3" fill="none" stroke="#1E1B16" stroke-width="1.5"></rect>
+      <text x="10" y="14" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1E1B16">A</text>
+    </g>
+<rect x="58" y="310" width="140" height="2" rx="1" fill="#5D5546"></rect>
+<rect x="58" y="318" width="90" height="2" rx="1" fill="#5D5546"></rect>
+<text x="320" y="319" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1E1B16">×1</text>
+<g transform="translate(28 335)">
+      <rect width="20" height="20" rx="3" fill="none" stroke="#1E1B16" stroke-width="1.5"></rect>
+      <text x="10" y="14" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1E1B16">B</text>
+    </g>
+<rect x="58" y="340" width="160" height="2" rx="1" fill="#5D5546"></rect>
+<rect x="58" y="348" width="90" height="2" rx="1" fill="#5D5546"></rect>
+<text x="320" y="349" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1E1B16">×2</text>
+<g transform="translate(28 365)">
+      <rect width="20" height="20" rx="3" fill="none" stroke="#1E1B16" stroke-width="1.5"></rect>
+      <text x="10" y="14" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1E1B16">C</text>
+    </g>
+<rect x="58" y="370" width="140" height="2" rx="1" fill="#5D5546"></rect>
+<rect x="58" y="378" width="90" height="2" rx="1" fill="#5D5546"></rect>
+<text x="320" y="379" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1E1B16">×3</text>
+<g transform="translate(28 395)">
+      <rect width="20" height="20" rx="3" fill="none" stroke="#1E1B16" stroke-width="1.5"></rect>
+      <text x="10" y="14" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1E1B16">D</text>
+    </g>
+<rect x="58" y="400" width="160" height="2" rx="1" fill="#5D5546"></rect>
+<rect x="58" y="408" width="90" height="2" rx="1" fill="#5D5546"></rect>
+<text x="320" y="409" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1E1B16">×4</text>
+<g transform="translate(28 425)">
+      <rect width="20" height="20" rx="3" fill="none" stroke="#1E1B16" stroke-width="1.5"></rect>
+      <text x="10" y="14" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1E1B16">E</text>
+    </g>
+<rect x="58" y="430" width="140" height="2" rx="1" fill="#5D5546"></rect>
+<rect x="58" y="438" width="90" height="2" rx="1" fill="#5D5546"></rect>
+<text x="320" y="439" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1E1B16">×5</text>
+  </g>
+</svg>
