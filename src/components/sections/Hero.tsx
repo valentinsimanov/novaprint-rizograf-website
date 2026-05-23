@@ -11,7 +11,7 @@ export default function Hero() {
           <span className="tag">самовывоз и доставка</span>
         </div>
         <h1>
-          Быстрая и&nbsp;недорогая печать на&nbsp;<span className="accent">ризографе</span> в&nbsp;Пензе
+          Быстрая и&nbsp;недорогая печать на&nbsp;<span className="accent">ризографе</span>{' '}в&nbsp;Пензе
         </h1>
         <p className="hero-sub">
           Печатаем инструкции, схемы сборки, вкладыши, бланки, документы, объявления, листовки, брошюры и&nbsp;другую простую полиграфию тиражом от&nbsp;100 экземпляров.

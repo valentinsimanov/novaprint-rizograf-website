@@ -362,6 +362,7 @@ p { margin: 0; }
   .materials::-webkit-scrollbar-thumb { background: var(--sand-deep); border-radius: 999px; }
   .material { flex: 0 0 260px; scroll-snap-align: start; }
   .materials-note { flex: 0 0 320px; }
+  .materials > *:last-child { scroll-snap-align: end; }
 }
 @media (max-width: 540px) { .material { flex: 0 0 78%; } }
 
