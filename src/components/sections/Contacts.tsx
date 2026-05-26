@@ -39,7 +39,7 @@ export default function Contacts() {
     <section id="contacts" ref={sectionRef} style={{ background: 'var(--bg-soft)' }}>
       <div className="wrap">
         <div className="section-head row">
-          <span className="eyebrow eyebrow-title">Контакты</span>
+          <h2 className="eyebrow eyebrow-title">Контакты типографии в Пензе</h2>
           <p className="lede">Мы в&nbsp;Пензе на&nbsp;улице Каракозова, 44. Заказ можно забрать самостоятельно или заранее согласовать доставку.</p>
         </div>
         <div className="contacts-grid">

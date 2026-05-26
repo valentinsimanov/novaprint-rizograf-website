@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/rizograf',
-  assetPrefix: '/rizograf',
   images: {
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',

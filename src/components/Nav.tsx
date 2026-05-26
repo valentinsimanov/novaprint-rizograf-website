@@ -4,7 +4,26 @@ import { useEffect, useState } from 'react';
 import { contacts } from '@/config/contacts';
 import { trackEvent, EVENTS } from '@/config/analytics';
 
-export default function Nav() {
+type NavLink = { href: string; label: string };
+
+interface NavProps {
+  links?: NavLink[];
+  ctaHref?: string;
+  ctaLabel?: string;
+}
+
+const defaultLinks: NavLink[] = [
+  { href: '#products', label: 'Что печатаем' },
+  { href: '#order', label: 'Как заказать' },
+  { href: '#prices', label: 'Цены' },
+  { href: '#contacts', label: 'Контакты' },
+];
+
+export default function Nav({
+  links = defaultLinks,
+  ctaHref = '#cta',
+  ctaLabel = 'Заказать',
+}: NavProps = {}) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -23,12 +42,15 @@ export default function Nav() {
             <div className="brand-sub">Типография · Пенза</div>
           </span>
         </a>
-        <nav className="nav-links" aria-label="Навигация">
-          <a className="nav-link" href="#products">Что печатаем</a>
-          <a className="nav-link" href="#order">Как заказать</a>
-          <a className="nav-link" href="#prices">Цены</a>
-          <a className="nav-link" href="#contacts">Контакты</a>
-        </nav>
+        {links.length > 0 && (
+          <nav className="nav-links" aria-label="Навигация">
+            {links.map((link) => (
+              <a key={link.href} className="nav-link" href={link.href}>
+                {link.label}
+              </a>
+            ))}
+          </nav>
+        )}
         <div className="nav-cta">
           <a
             className="nav-tel"
@@ -42,10 +64,10 @@ export default function Nav() {
           </a>
           <a
             className="btn btn-primary btn-sm"
-            href="#cta"
-            onClick={() => trackEvent(EVENTS.CTA_ORDER_CLICK, { section: 'nav', cta_text: 'Заказать' })}
+            href={ctaHref}
+            onClick={() => trackEvent(EVENTS.CTA_ORDER_CLICK, { section: 'nav', cta_text: ctaLabel })}
           >
-            Заказать
+            {ctaLabel}
           </a>
         </div>
       </div>

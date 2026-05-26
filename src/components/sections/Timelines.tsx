@@ -54,7 +54,7 @@ export default function Timelines() {
     <section id="timing">
       <div className="wrap">
         <div className="section-head row">
-          <span className="eyebrow eyebrow-title">Сроки</span>
+          <h2 className="eyebrow eyebrow-title">Сроки печати</h2>
           <p className="lede">Подберём режим под&nbsp;вашу задачу&nbsp;— от&nbsp;стандартного тиража за&nbsp;пару дней до&nbsp;срочной печати в&nbsp;течение часа.</p>
         </div>
         <div className="modes">
