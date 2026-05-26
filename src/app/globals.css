@@ -106,15 +106,12 @@ p { margin: 0; }
   position: -webkit-sticky;
   position: sticky;
   top: 0; z-index: 50;
-  background: color-mix(in oklab, var(--bg) 92%, transparent);
-  -webkit-backdrop-filter: saturate(140%) blur(10px);
-  backdrop-filter: saturate(140%) blur(10px);
+  background: var(--bg);
   border-bottom: 1px solid transparent;
-  transition: border-color .2s ease, background .2s ease, box-shadow .2s ease;
+  transition: border-color .2s ease, box-shadow .2s ease;
 }
 .nav.is-scrolled {
   border-bottom-color: var(--hair);
-  background: color-mix(in oklab, var(--bg) 96%, transparent);
   box-shadow: 0 6px 18px -14px rgba(30, 27, 22, 0.18);
 }
 @media (max-width: 720px) {
