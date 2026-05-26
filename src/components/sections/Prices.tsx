@@ -29,7 +29,7 @@ export default function Prices() {
     <section id="prices" ref={sectionRef} style={{ background: 'var(--bg-soft)' }}>
       <div className="wrap">
         <div className="section-head row">
-          <span className="eyebrow eyebrow-title">Цены</span>
+          <h2 className="eyebrow eyebrow-title">Цены на печать</h2>
           <p className="lede">Цена зависит от&nbsp;формата, тиража, типа бумаги, срочности и&nbsp;подготовки макета. Ниже&nbsp;— ориентиры за&nbsp;один экземпляр.</p>
         </div>
         <div className="prices-wrap">

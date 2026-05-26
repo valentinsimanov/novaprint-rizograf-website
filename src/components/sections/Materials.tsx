@@ -5,7 +5,7 @@ export default function Materials() {
     <section id="materials">
       <div className="wrap">
         <div className="section-head row">
-          <span className="eyebrow eyebrow-title">На чём печатаем</span>
+          <h2 className="eyebrow eyebrow-title">На чём печатаем</h2>
           <p className="lede">Самые ходовые варианты обычно есть в&nbsp;наличии. Нестандартные материалы согласуем заранее.</p>
         </div>
         <div className="materials">

@@ -6,7 +6,7 @@ export default function Products() {
     <section id="products">
       <div className="wrap">
         <div className="section-head row">
-          <span className="eyebrow eyebrow-title">Что печатаем</span>
+          <h2 className="eyebrow eyebrow-title">Что печатаем на ризографе</h2>
           <p className="lede">
             Типовые материалы для бизнеса, производства, офиса и&nbsp;локальной рекламы. Если нужного формата нет в&nbsp;списке&nbsp;— напишите, подскажем, можно&nbsp;ли сделать заказ на&nbsp;ризографе.
           </p>
