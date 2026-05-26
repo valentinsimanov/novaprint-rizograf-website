@@ -1,7 +1,8 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Onest, JetBrains_Mono } from 'next/font/google';
 import { seo } from '@/config/seo';
 import { contacts } from '@/config/contacts';
+import { YandexMetrika } from '@/components/YandexMetrika';
 import './globals.css';
 
 const onest = Onest({
@@ -28,6 +29,12 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: '#F6F1E8',
+  width: 'device-width',
+  initialScale: 1,
+};
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
@@ -52,7 +59,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <YandexMetrika />
+        {children}
+      </body>
     </html>
   );
 }

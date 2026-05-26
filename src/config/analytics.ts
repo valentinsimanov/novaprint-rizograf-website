@@ -21,8 +21,11 @@ interface EventParams {
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
+    ym?: (counterId: number, action: string, ...args: unknown[]) => void;
   }
 }
+
+const YM_ID = process.env.NEXT_PUBLIC_YM_ID ? Number(process.env.NEXT_PUBLIC_YM_ID) : undefined;
 
 export function trackEvent(event: EventName, params: EventParams = {}): void {
   if (typeof window === 'undefined') return;
@@ -34,5 +37,8 @@ export function trackEvent(event: EventName, params: EventParams = {}): void {
   };
   if (typeof window.gtag === 'function') {
     window.gtag('event', event, enriched);
+  }
+  if (typeof window.ym === 'function' && YM_ID) {
+    window.ym(YM_ID, 'reachGoal', event, enriched);
   }
 }
