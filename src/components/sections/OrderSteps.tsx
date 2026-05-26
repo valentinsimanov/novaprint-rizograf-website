@@ -12,7 +12,7 @@ export default function OrderSteps() {
       <div className="wrap">
         <div className="section-head row">
           <div>
-            <h2 className="eyebrow eyebrow-title">Как сделать заказ</h2>
+            <span className="eyebrow eyebrow-title">Как сделать заказ</span>
             <p className="section-subhead">Пять шагов от звонка до готового тиража</p>
           </div>
           <p className="lede">

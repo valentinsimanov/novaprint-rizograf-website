@@ -1,40 +1,34 @@
-import type { Metadata } from 'next';
 import Nav from '@/components/Nav';
-import HomeHero from '@/components/sections/HomeHero';
-import ServicePicker from '@/components/sections/ServicePicker';
+import Hero from '@/components/sections/Hero';
+import Products from '@/components/sections/Products';
+import OrderSteps from '@/components/sections/OrderSteps';
+import OrderContacts from '@/components/sections/OrderContacts';
+import Materials from '@/components/sections/Materials';
+import Prices from '@/components/sections/Prices';
+import Timelines from '@/components/sections/Timelines';
+import UrgentOrder from '@/components/sections/UrgentOrder';
+import Delivery from '@/components/sections/Delivery';
 import Contacts from '@/components/sections/Contacts';
 import Footer from '@/components/Footer';
 import MobileCTA from '@/components/MobileCTA';
 import Toast from '@/components/Toast';
-import { rootSeo } from '@/config/seo';
 
-export const metadata: Metadata = {
-  title: rootSeo.title,
-  description: rootSeo.description,
-  keywords: rootSeo.keywords,
-  alternates: { canonical: rootSeo.canonicalUrl },
-  openGraph: {
-    title: rootSeo.openGraphTitle,
-    description: rootSeo.openGraphDescription,
-    url: rootSeo.canonicalUrl,
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: rootSeo.openGraphTitle,
-    description: rootSeo.openGraphDescription,
-  },
-};
-
-export default function HomePage() {
+export default function Home() {
   return (
     <>
-      <Nav links={[]} ctaHref="#contacts" ctaLabel="Связаться" />
+      <Nav />
       <main id="top">
-        <HomeHero />
-        <ServicePicker />
+        <Hero />
+        <Products />
+        <OrderSteps />
+        <OrderContacts />
+        <Materials />
+        <Prices />
+        <Timelines />
+        <UrgentOrder />
+        <Delivery />
         <Contacts />
-        <Footer tagline="Полиграфия в Пензе · от 100 экземпляров" />
+        <Footer />
       </main>
       <MobileCTA />
       <Toast />

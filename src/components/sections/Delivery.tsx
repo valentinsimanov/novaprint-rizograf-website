@@ -32,7 +32,7 @@ export default function Delivery() {
     <section id="receive">
       <div className="wrap">
         <div className="section-head row">
-          <h2 className="eyebrow eyebrow-title">Как получить заказ</h2>
+          <span className="eyebrow eyebrow-title">Как получить заказ</span>
           <p className="lede">Можно забрать заказ самостоятельно или&nbsp;оформить доставку. Поможем выбрать удобный вариант.</p>
         </div>
         <div className="receive">
